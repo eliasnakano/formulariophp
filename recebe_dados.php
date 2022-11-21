@@ -1,8 +1,6 @@
 <?php
-
     include 'conexao.php';
 
-   
     $nroproduto = $_POST['nrmproduto'];
     $nomeproduto = $_POST ['nomeproduto'];
     $quantidade = $_POST['quantidade'];
@@ -20,6 +18,9 @@
 
     <h3>Formulário Enviado com sucesso!</h3>
     <button type="button" class="btn btn-success">Success</button>
+    <?php 
+        include 'listar_produtos.php';
+    ?>
     
 </div> <!--div container-->
 
